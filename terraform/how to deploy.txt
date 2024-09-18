@@ -1,0 +1,10 @@
+// To deploy, navigate to the environment folder and execute the following commands:
+
+# Initialize Terraform and download the provider plugins
+terraform init
+
+# Plan the infrastructure
+terraform plan -var-file variables.tf
+
+# Apply the infrastructure
+terraform apply -var-file variables.tf
